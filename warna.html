@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bermain warna</title>
+
+<style type="text/css">
+
+body, html{
+	height: 100%;
+	text-align: center;
+}
+
+.aqua{
+	background-color: aqua;
+}
+
+ button{
+ 	text-align: center;
+ 	padding: 10px;
+ 	margin:auto;
+ 	font-size: 15px;
+ 	font-family: sans-serif, arial;
+ }
+
+ .kotak{
+ 	width: 25px;
+ 	height: 25px;
+ 	margin: 10px auto;
+ }
+
+ .merah{
+ 	background-color: red;
+ }
+
+ .biru{
+ 	background-color: blue;
+ }
+
+.hijau{
+	background-color: green;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1> Bermain dengan warna</h1>
+
+<button id="btn" type="button"> Ubah Warna </button>
+
+<br><br>
+
+<div class="kotak merah"> </div>
+<input type="range" name="merah" min="0" max="255">
+
+
+<div class="kotak biru"> </div>
+<input type="range" name="biru" min="0" max="255">
+
+
+<div class="kotak hijau"> </div>
+<input type="range" name="hijau" min="0" max="255">
+
+<script type="text/javascript" src="warna.js"></script>
+</body>
+</html>
+
+
